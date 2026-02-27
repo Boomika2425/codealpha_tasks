@@ -1,44 +1,56 @@
-# Exploratory Data Analysis of Retail Sales Dataset using Python
+# Retail Sales Data Analysis using Python
 
-## 📌 Project Overview
-This project focuses on performing Exploratory Data Analysis (EDA) on a retail superstore sales dataset to understand sales performance, profitability, and business trends using Python.
+About the Project
+This is my first data analytics project, where I worked with a retail superstore sales dataset to understand how sales and profit behave across regions, categories, and time.  
+The project is divided into two parts: Exploratory Data Analysis and Data Visualization.
 
-## 📂 Dataset
-- Dataset: Sample Superstore Dataset
-- File format: CSV
-- Records: 10,194 rows × 21 columns
+ Dataset
+- Sample Superstore dataset  
+- CSV file  
+- 10,194 rows and 21 columns  
 
-## 🛠 Tools & Technologies Used
-- Python
-- Pandas
-- Jupyter Notebook
+ Tools Used
+- Python  
+- Pandas  
+- Matplotlib    
+- Jupyter Notebook  
 
-## 🔍 Task 1: Exploratory Data Analysis
-- Explored dataset structure and data types
-- Checked missing values and duplicate records
-- Analyzed total sales and profit
-- Identified top-performing regions and categories
-- Detected loss-making sub-categories
-- Analyzed discount impact on profitability
-- Identified monthly and seasonal sales trends
-- Provided business insights and recommendations
+## Task 1: Exploratory Data Analysis (EDA)
+In this task, I explored the dataset to understand its structure and uncover basic patterns.
 
-## 📊 Key Insights
-- West region generates the highest sales
-- Technology is the most profitable category
-- Tables and Bookcases are loss-making sub-categories
-- Higher discounts negatively impact profit
-- November records the highest sales
+**What I did:**
+- Checked data types, missing values, and duplicates  
+- Analyzed total sales and total profit  
+- Compared sales and profit across regions and categories  
+- Identified loss-making sub-categories  
+- Studied the effect of discounts on profit  
+- Analyzed monthly and seasonal sales trends  
 
-## 📈 Future Scope
-- Create interactive dashboards
-- Perform deeper outlier analysis
-- Add advanced visualizations
-- Extend analysis using machine learning
+**Key findings from EDA:**
+- The West region has the highest sales  
+- Technology is the most profitable category  
+- Tables and Bookcases consistently make losses  
+- Higher discounts usually reduce profit  
+- Sales peak in November  
 
-## 📌 Conclusion
-This project demonstrates an end-to-end EDA workflow using Python and Pandas, providing meaningful business insights from raw data.
+## Task 2: Data Visualization
+In this task, I used visualizations to better understand patterns and trends in the data.
 
----
+**Visuals created:**
+- Bar chart for sales by region  
+- Bar / pie chart for profit by category  
+- Line chart for monthly sales trends  
+- Scatter plot to study discount vs profit  
+- Histogram to understand sales distribution  
 
-⭐ This is my first data analytics project.
+**Insights from visualization:**
+- Regional sales differences are clearly visible, with the West leading  
+- Technology contributes the largest share of profit  
+- Sales show strong seasonality with a peak towards year-end  
+- High discounts are often linked to negative profit  
+- Most orders are small, with a few high-value orders driving overall sales  
+
+## Conclusion
+Through this project, I learned how to analyze a real-world dataset using Python, move from raw data to insights, and clearly communicate findings using visualizations. This project helped me understand how data analysis supports business decision-making.
+
+⭐ This is my first data analytics project, and it reflects my learning journey.
